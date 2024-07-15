@@ -239,13 +239,17 @@ export const skills = [
     }
 ];
 
+export const experiences = [
+
+];
+
 export const education = [
     {
         id: 0,
         img: "https://firebasestorage.googleapis.com/v0/b/learn-https-68d7c.appspot.com/o/clogo.png?alt=media&token=680995cf-7e71-42ae-acbf-16168082c07c",
         school: "Vishwakarma Government Engineering College, Ahmedabad",
         date: "Sep 2021 - Jun 2025",
-        grade: "8.5 CGPA",
+        grade: "8 CGPA",
         desc: "I am currently pursuing a Bachelor's degree in Information Technology at Vishwakarma Government Engineering College, Ahmedabad. I have completed 6 semesters and have a CGPA of 8. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at VGEC, where I am learning and working on exciting projects with a team of talented developers.",
         degree: "Bachelor of Engineering - BE, Information Technology",
     },
@@ -374,4 +378,8 @@ export const projects = [
         github: "https://github.com/Ritesh0604/Angular_ToDoList",
         webapp: ""
     }
+];
+
+
+export const certificate = [
 ];
