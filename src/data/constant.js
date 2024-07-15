@@ -3,15 +3,17 @@ export const Bio = {
     roles: [
         "Full Stack Developer",
         "Programmer",
-        "Cyber Security enthusiastic"
+        "CyberSec enthusiastic"
     ],
     description:
         "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Ritesh0604",
-    resume:
-        "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    resume: [
+        "https://drive.google.com/file/d/1jzolxKC9WkgoPhhuGCwl4rtP3ewp_g-e/view?usp=sharing",
+        "https://drive.google.com/file/d/13tGLGs9UzpiMyochGiUPJ6MepBnrAFpk/view?usp=sharing"
+    ],
     linkedin: "https://www.linkedin.com/in/ritesh-mandaviya-062004abc/",
-    X: "https://twitter.com/Ritesh0604",
+    X: "https://x.com/ArthurXX0631",
     //Add more social media account
 };
 
@@ -58,20 +60,16 @@ export const skills = [
                 image:
                     "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
             },
-            // {
-            //     name: "Material UI",
-            //     image:
-            //         "data:image/png;base64,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",
-            // },
+            {
+                name: "Material UI",
+                image:
+                    "data:image/png;base64,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",
+            },
             // {
             //     name: "Flutter",
             //     image:
             //         "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
             // },
-            {
-                name: "React Native",
-                image: "https://reactnative.dev/img/header_logo.svg"
-            },
         ],
     },
     {
@@ -122,50 +120,6 @@ export const skills = [
             // {
             //     name: "Firebase",
             //     image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-            // },
-        ],
-    },
-    {
-        title: "DevOps",
-        skills: [
-            // {
-            //     name: "AWS",
-            //     image:
-            //         "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-            // },
-            // {
-            //     name: "Google Cloud",
-            //     image:
-            //         "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-            // },
-            // {
-            //     name: "Docker",
-            //     image:
-            //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-            // },
-            // {
-            //     name: "Jenkins",
-            //     image:
-            //         "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-            // },
-            // {
-            //     name: "Nginx",
-            //     image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
-            // },
-            // {
-            //     name: "Grafana",
-            //     image:
-            //         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-            // },
-            // {
-            //     name: "Kubernetes",
-            //     image:
-            //         "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-            // },
-            // {
-            //     name: "Prometheus",
-            //     image:
-            //         "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
             // },
         ],
     },
@@ -274,6 +228,15 @@ export const skills = [
             // },
         ],
     },
+    {
+        title: "Native",
+        skills: [
+            {
+                name: "React Native",
+                image: "https://reactnative.dev/img/header_logo.svg"
+            },
+        ]
+    }
 ];
 
 export const experiences = [
@@ -384,7 +347,7 @@ export const experiences = [
 export const education = [
     {
         id: 0,
-        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+        img: "https://firebasestorage.googleapis.com/v0/b/learn-https-68d7c.appspot.com/o/clogo.png?alt=media&token=680995cf-7e71-42ae-acbf-16168082c07c",
         school: "Vishwakarma Government Engineering College, Ahmedabad",
         date: "Sep 2021 - Jun 2025",
         grade: "8 CGPA",
@@ -393,7 +356,7 @@ export const education = [
     },
     {
         id: 1,
-        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+        img: "https://firebasestorage.googleapis.com/v0/b/learn-https-68d7c.appspot.com/o/success-student-school-logo-vector-4147150.webp?alt=media&token=88c282ba-72dd-401b-a97d-d41fce831762",
         school: "Vivek Vidhyalay, Surat",
         date: "Apr 2019 - Apr 2021",
         grade: "84%",
@@ -402,7 +365,7 @@ export const education = [
     },
     {
         id: 2,
-        img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+        img: "https://firebasestorage.googleapis.com/v0/b/learn-https-68d7c.appspot.com/o/education-book-logo-vector-design.webp?alt=media&token=b8dbeafb-f65b-4079-b5d8-0e760da3906b",
         school: "K & M P Sarvajanik Vidhyalay, Surat",
         date: "Apr 2017 - Apr 2019",
         grade: "88%",
@@ -413,7 +376,7 @@ export const education = [
 
 export const projects = [
     {
-        id: 11,
+        id: 0,
         title: "DecisionHub",
         date: "Jan 2024 - Dec 2023",
         description:
@@ -433,7 +396,7 @@ export const projects = [
         webapp: "https://decisionhub.netlify.app/",
     },
     {
-        id: 9,
+        id: 1,
         title: "Trackify",
         date: "Jun 2023 - Jul 2023",
         description:
@@ -458,7 +421,7 @@ export const projects = [
         webapp: "https://trackify-management.netlify.app/",
     },
     {
-        id: 0,
+        id: 2,
         title: "Podstream",
         date: "Apr 2023 - May 2023",
         description:
@@ -485,7 +448,7 @@ export const projects = [
         ],
     },
     {
-        id: 1,
+        id: 3,
         title: "Vexa",
         date: "Oct 2022 - Jan 2023",
         description:
@@ -505,34 +468,7 @@ export const projects = [
         webapp: "https://vexa-app.netlify.app/",
     },
     {
-        id: 2,
-        title: "Brain Tumor Detection",
-        date: "Jan 2023 - Mar 2023",
-        description:
-            "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-        image:
-            "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-        tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-        category: "machine learning",
-        github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-        webapp: "https://brain-tumor.netlify.app/",
-        member: [
-            {
-                name: "Rishav Chanda",
-                img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-                linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-                github: "https://github.com/rishavchanda/",
-            },
-            {
-                name: "Upasana Chaudhuri",
-                img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-                linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-                github: "https://github.com/upasana0710",
-            },
-        ],
-    },
-    {
-        id: 3,
+        id: 4,
         title: "Buckoid",
         date: "Dec 2021 - Apr 2022",
         description:
@@ -545,7 +481,7 @@ export const projects = [
         webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
     },
     {
-        id: 10,
+        id: 5,
         title: "Job Finding App",
         date: "Jun 2023 - Jul 2023",
         description:
@@ -558,7 +494,7 @@ export const projects = [
         webapp: "https://github.com/rishavchanda/Job-finder-App",
     },
     {
-        id: 4,
+        id: 6,
         title: "Whatsapp Clone",
         date: "Jul 2021",
         description:
@@ -571,7 +507,7 @@ export const projects = [
         webapp: "https://whatsapp-clone-rishav.web.app",
     },
     {
-        id: 5,
+        id: 7,
         title: "Todo Web App",
         date: "Jun 2021",
         description:
@@ -584,7 +520,7 @@ export const projects = [
         webapp: "https://rishav-react-todo.netlify.app/",
     },
     {
-        id: 6,
+        id: 8,
         title: "Breaking Bad",
         date: "Jun 2021",
         description:
@@ -597,7 +533,7 @@ export const projects = [
         webapp: "https://breaking-bad-webapp.netlify.app",
     },
     {
-        id: 7,
+        id: 9,
         title: "Quiz App",
         date: "Dec 2020 - Jan 2021",
         description:
@@ -608,19 +544,8 @@ export const projects = [
         category: "android app",
         github: "https://github.com/rishavchanda/Quiz-Earn",
         webapp: "https://github.com/rishavchanda/Quiz-Earn",
-    },
-    {
-        id: 8,
-        title: "Face Recognition",
-        date: "Jan 2021",
-        description:
-            "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-        image:
-            "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
-        tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-        category: "machine learning",
-        github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-        webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    },
+    }
 ];
 
+export const certificate = [
+];

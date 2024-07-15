@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constant.js";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import InstagramIcon from "@mui/icons-material/Instagram";
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -92,22 +91,19 @@ const Footer = () => {
         <Nav>
           <NavLink href="#About">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
-          <NavLink href="#Experience">Experience</NavLink>
+          {/* <NavLink href="#Experience">Experience</NavLink> */}
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display">
-            <FacebookIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display">
-            <TwitterIcon />
+          <SocialMediaIcon href={Bio.X} target="display">
+            <XIcon />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
-            <InstagramIcon />
+          <SocialMediaIcon href={Bio.github} target="display">
+            <GitHubIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>&copy; 2024 Ritesh Mandaviya. All rights reserved.</Copyright>
