@@ -361,7 +361,7 @@ export const projects = [
         ],
         category: "web app",
         github: "https://github.com/Ritesh0604/CRM-ERP-Tool",
-        webapp: ""
+        webapp: "https://github.com/Ritesh0604/CRM-ERP-Tool"
     },
     {
         id: 3,
@@ -376,7 +376,7 @@ export const projects = [
         ],
         category: "web app",
         github: "https://github.com/Ritesh0604/Angular_ToDoList",
-        webapp: ""
+        webapp: "https://github.com/Ritesh0604/Angular_ToDoList"
     }
 ];
 
