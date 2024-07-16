@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constant.js";
-import XIcon from '@mui/icons-material/X';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from '@mui/icons-material/GitHub';
 
@@ -84,32 +83,29 @@ const Copyright = styled.p`
 `;
 
 const Footer = () => {
-  return (
-    <FooterContainer>
-      <FooterWrapper>
-        <Logo>Ritesh Mandaviya</Logo>
-        <Nav>
-          <NavLink href="#About">About</NavLink>
-          <NavLink href="#Skills">Skills</NavLink>
-          {/* <NavLink href="#Experience">Experience</NavLink> */}
-          <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Education">Education</NavLink>
-        </Nav>
-        <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.X} target="display">
-            <XIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display">
-            <LinkedInIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.github} target="display">
-            <GitHubIcon />
-          </SocialMediaIcon>
-        </SocialMediaIcons>
-        <Copyright>&copy; 2024 Ritesh Mandaviya. All rights reserved.</Copyright>
-      </FooterWrapper>
-    </FooterContainer>
-  );
+    return (
+        <FooterContainer>
+            <FooterWrapper>
+                <Logo>Ritesh Mandaviya</Logo>
+                <Nav>
+                    <NavLink href="#About">About</NavLink>
+                    <NavLink href="#Skills">Skills</NavLink>
+                    {/* <NavLink href="#Experience">Experience</NavLink> */}
+                    <NavLink href="#Projects">Projects</NavLink>
+                    <NavLink href="#Education">Education</NavLink>
+                </Nav>
+                <SocialMediaIcons>
+                    <SocialMediaIcon href={Bio.linkedin} target="display">
+                        <LinkedInIcon />
+                    </SocialMediaIcon>
+                    <SocialMediaIcon href={Bio.github} target="display">
+                        <GitHubIcon />
+                    </SocialMediaIcon>
+                </SocialMediaIcons>
+                <Copyright>&copy; 2024 Ritesh Mandaviya. All rights reserved.</Copyright>
+            </FooterWrapper>
+        </FooterContainer>
+    );
 };
 
 export default Footer;

@@ -9,11 +9,9 @@ export const Bio = {
         "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Ritesh0604",
     resume: [
-        "https://drive.google.com/file/d/1jzolxKC9WkgoPhhuGCwl4rtP3ewp_g-e/view?usp=sharing",
-        "https://drive.google.com/file/d/13tGLGs9UzpiMyochGiUPJ6MepBnrAFpk/view?usp=sharing"
+        "https://drive.google.com/file/d/1KUwd59SuXB3Ao-dUPnJfrRJGhgWKsi8C/view?usp=sharing"
     ],
     linkedin: "https://www.linkedin.com/in/ritesh-mandaviya-062004abc/",
-    X: "https://x.com/ArthurXX0631",
     //Add more social media account
 };
 
@@ -240,7 +238,6 @@ export const skills = [
 ];
 
 export const experiences = [
-
 ];
 
 export const education = [
@@ -376,7 +373,27 @@ export const projects = [
         ],
         category: "web app",
         github: "https://github.com/Ritesh0604/Angular_ToDoList",
-        webapp: "https://github.com/Ritesh0604/Angular_ToDoList"
+        webapp: "https://github.com/Ritesh0604/Angular_ToDoList",
+        member: [
+            {
+                name: "Ritesh Mandaviya",
+                img: "https://avatars.githubusercontent.com/u/94890637?v=4",
+                linkedin: "https://www.linkedin.com/in/ritesh-mandaviya-062004abc/",
+                github: "https://github.com/Ritesh0604",
+            },
+            {
+                name: "Khushi Patel",
+                img: "https://avatars.githubusercontent.com/u/97098560?v=4",
+                linkedin: "https://www.linkedin.com/in/khushi-patel-417752226/",
+                github: "https://github.com/Khushipatel31",
+            },
+            {
+                name: "Isha Sanghani",
+                img: "https://avatars.githubusercontent.com/u/102859564?v=4",
+                linkedin: "https://www.linkedin.com/in/isha-sanghani-b634a322a/",
+                github: "https://github.com/Ishasanghani",
+            },
+        ],
     }
 ];
 
