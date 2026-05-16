@@ -170,6 +170,22 @@ export const skills = [
 ];
 
 export const experiences = [
+    {
+        "id": 0,
+        "date": "Jul 2025 — Present",
+        "role": "Programmer Analyst (Java Developer)",
+        "company": "Argusoft India Ltd., Gandhinagar",
+        "description": "Migrated legacy authentication to Keycloak + Spring Security for a system serving 500K+ users across USA restaurant networks with zero downtime. Built an NLP-based query engine using Java, OpenAI, and Qdrant vector database over 400+ tables. Designed prompt injection protection layers for secure AI-driven query processing. Developed GPS data ingestion pipelines for real-time vehicle telemetry analytics. Upgraded enterprise frontend from Angular 17 to Angular 21.",
+        "tech": ["Java", "Spring Boot", "Keycloak", "OpenAI", "Qdrant", "Angular", "PostgreSQL"]
+    },
+    {
+        "id": 1,
+        "date": "Jan 2025 — Jun 2025",
+        "role": "Programmer Analyst Intern",
+        "company": "Argusoft India Ltd., Gandhinagar",
+        "description": "Developed a centralized IT Asset Management System to manage organizational resources (laptops, mobiles, accessories). Implemented QR/Barcode-based asset tracking, dynamic resource attributes, and lifecycle management. Built modules for resource assignment, repair tracking, and support ticket management with role-based access control.",
+        "tech": ["Java", "Spring Boot", "PostgreSQL", "REST APIs"]
+    }
 ];
 
 export const education = [
